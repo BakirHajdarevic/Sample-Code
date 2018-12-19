@@ -1,3 +1,15 @@
+######################################################################
+# Programmer: Bakir Hajdarevic
+# Program: bluetoothSearch.py
+# Date: 6/1/2016
+# Description: This program was written to connect a raspberry pi-3 to
+# a HC-06 sensor as part of an embedded system. Commands were sent to 
+# the bluetooth device that corresponded with setting the speed and step
+# size of a system's stepper motor. These parameters essentially 
+# dictated how fast a slider moved.
+######################################################################
+
+# Import necessary libraries
 from bluetooth import *
 from time import sleep
 

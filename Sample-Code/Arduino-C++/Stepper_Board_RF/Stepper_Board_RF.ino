@@ -1,4 +1,4 @@
-/*-----( Import needed libraries )-----*/
+/*-----( Import required libraries )-----*/
 #include <SimpleTimer.h>
 #include <SoftwareSerial.h>
 #include <Adafruit_MotorShield.h>
@@ -109,4 +109,3 @@ void setUpTimer(){
 void releaseMotor(){
   myMotor->release();
 }
-

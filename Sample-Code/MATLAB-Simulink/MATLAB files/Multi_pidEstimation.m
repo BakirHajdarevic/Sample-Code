@@ -5,7 +5,7 @@
 % Description: This program was created to systematically optimize closed 
 % loop transfer functions (CLTF) with a proportional integral derivative 
 % (PID) controller of a plant, specifically an ECU-Proporitonal Solenoid 
-% Valve (PSOL) (chosen by the user) in series with a lung-impedence model 
+% Valve (PSOL) (type chosen by the user) in series with a lung-impedence model 
 % (also chosen by the user), over a specified frequency range 
 % (desired was 0.1:20 Hz). The optimization approach is to obtain unity gain
 % (flat frequency response) over the intended frequency range. The 

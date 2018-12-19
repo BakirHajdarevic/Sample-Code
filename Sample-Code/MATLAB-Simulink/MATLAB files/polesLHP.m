@@ -17,7 +17,7 @@
 % the CLTF numerator and denominator and the returned values from fmincon
 % for the PID parameters. The function finds the real roots of the CLTF and
 % returns them in the array c. The nonlinear function sovler fmincon will
-% use these values as part of its gradient descent (optimization).
+% use these values as part of its gradient descent optimization.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [c,ceq] = polesLHP( zerosVLK , polesVLK , x )
